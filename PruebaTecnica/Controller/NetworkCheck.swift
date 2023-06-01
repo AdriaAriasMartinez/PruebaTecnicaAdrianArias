@@ -7,9 +7,11 @@
 
 import Network
 
+
 protocol NetworkCheckObserver: class {
     func statusDidChange(status: NWPath.Status)
 }
+
 
 class NetworkCheck {
 

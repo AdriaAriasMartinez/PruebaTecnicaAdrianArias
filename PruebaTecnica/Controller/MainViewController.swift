@@ -9,6 +9,7 @@ import UIKit
 import WebKit
 import Network
 
+@available(iOS 13.0, *)
 class MainViewController: UIViewController {
     
     @IBOutlet weak var banksTableView: UITableView!
@@ -106,7 +107,7 @@ class MainViewController: UIViewController {
 }
 
 
-
+@available(iOS 13.0, *)
 extension MainViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return banks.count

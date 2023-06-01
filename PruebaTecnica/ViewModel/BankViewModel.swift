@@ -9,7 +9,7 @@ import Foundation
 import CoreData
 import UIKit
 
-
+@available(iOS 13.0, *)
 class BankViewModel{
     
     private let url = URL(string: "https://dev.obtenmas.com/catom/api/challenge/banks")

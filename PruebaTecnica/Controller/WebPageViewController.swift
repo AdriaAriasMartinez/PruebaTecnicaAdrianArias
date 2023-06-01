@@ -9,6 +9,7 @@ import UIKit
 import WebKit
 import Network
 
+@available(iOS 13.0, *)
 class WebPageViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
     @IBOutlet weak var pageView: WKWebView!
     @IBOutlet weak var Activity: UIActivityIndicatorView!
