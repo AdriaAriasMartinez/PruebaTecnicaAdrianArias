@@ -28,7 +28,7 @@
         <!--Main View Controller-->
         <scene sceneID="niw-98-iVf">
             <objects>
-                <viewController id="r66-j1-F5h" customClass="MainViewController" customModule="PruebaTecnica" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="r66-j1-F5h" customClass="MainViewController" customModule="PruebaTecnica" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Zzm-la-wUH">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,7 +64,7 @@
         <!--Web Page View Controller-->
         <scene sceneID="F0f-Ff-ngE">
             <objects>
-                <viewController id="94s-3T-vfu" customClass="WebPageViewController" customModule="PruebaTecnica" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="94s-3T-vfu" customClass="WebPageViewController" customModule="PruebaTecnica" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qyI-hB-h0h">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
