@@ -7,25 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A5B06BB2A293CBE00C335A5 /* NetworkCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B06BA2A293CBE00C335A5 /* NetworkCheck.swift */; };
 		7AA980F02A2864FB00F5F57D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA980EF2A2864FB00F5F57D /* AppDelegate.swift */; };
 		7AA980F22A2864FB00F5F57D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA980F12A2864FB00F5F57D /* SceneDelegate.swift */; };
-		7AA980F42A2864FB00F5F57D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA980F32A2864FB00F5F57D /* ViewController.swift */; };
 		7AA980F72A2864FB00F5F57D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA980F52A2864FB00F5F57D /* Main.storyboard */; };
 		7AA980FA2A2864FB00F5F57D /* PruebaTecnica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AA980F82A2864FB00F5F57D /* PruebaTecnica.xcdatamodeld */; };
 		7AA980FC2A2864FD00F5F57D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA980FB2A2864FD00F5F57D /* Assets.xcassets */; };
 		7AA980FF2A2864FD00F5F57D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA980FD2A2864FD00F5F57D /* LaunchScreen.storyboard */; };
+		7AA9810B2A28657B00F5F57D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA9810A2A28657B00F5F57D /* MainViewController.swift */; };
+		7AA9810D2A2865BF00F5F57D /* BankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA9810C2A2865BF00F5F57D /* BankTableViewCell.swift */; };
+		7AA9810F2A2865FE00F5F57D /* BankViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA9810E2A2865FE00F5F57D /* BankViewModel.swift */; };
+		7AA981112A28662B00F5F57D /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA981102A28662B00F5F57D /* Bank.swift */; };
+		7AA981152A2866D800F5F57D /* BankTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AA981132A2866D800F5F57D /* BankTableViewCell.xib */; };
+		7AA981172A2915C200F5F57D /* WebPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA981162A2915C200F5F57D /* WebPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A5B06BA2A293CBE00C335A5 /* NetworkCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCheck.swift; sourceTree = "<group>"; };
 		7AA980EC2A2864FB00F5F57D /* PruebaTecnica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaTecnica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA980EF2A2864FB00F5F57D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AA980F12A2864FB00F5F57D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7AA980F32A2864FB00F5F57D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7AA980F62A2864FB00F5F57D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AA980F92A2864FB00F5F57D /* PruebaTecnica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PruebaTecnica.xcdatamodel; sourceTree = "<group>"; };
 		7AA980FB2A2864FD00F5F57D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AA980FE2A2864FD00F5F57D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AA981002A2864FD00F5F57D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA9810A2A28657B00F5F57D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7AA9810C2A2865BF00F5F57D /* BankTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankTableViewCell.swift; sourceTree = "<group>"; };
+		7AA9810E2A2865FE00F5F57D /* BankViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankViewModel.swift; sourceTree = "<group>"; };
+		7AA981102A28662B00F5F57D /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		7AA981132A2866D800F5F57D /* BankTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BankTableViewCell.xib; sourceTree = "<group>"; };
+		7AA981162A2915C200F5F57D /* WebPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +70,54 @@
 		7AA980EE2A2864FB00F5F57D /* PruebaTecnica */ = {
 			isa = PBXGroup;
 			children = (
+				7AA981092A28653700F5F57D /* Controller */,
+				7AA981082A28652700F5F57D /* ViewModel */,
+				7AA981072A28651F00F5F57D /* View */,
+				7AA981062A28651500F5F57D /* Model */,
 				7AA980EF2A2864FB00F5F57D /* AppDelegate.swift */,
 				7AA980F12A2864FB00F5F57D /* SceneDelegate.swift */,
-				7AA980F32A2864FB00F5F57D /* ViewController.swift */,
-				7AA980F52A2864FB00F5F57D /* Main.storyboard */,
 				7AA980FB2A2864FD00F5F57D /* Assets.xcassets */,
-				7AA980FD2A2864FD00F5F57D /* LaunchScreen.storyboard */,
 				7AA981002A2864FD00F5F57D /* Info.plist */,
 				7AA980F82A2864FB00F5F57D /* PruebaTecnica.xcdatamodeld */,
 			);
 			path = PruebaTecnica;
+			sourceTree = "<group>";
+		};
+		7AA981062A28651500F5F57D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AA981102A28662B00F5F57D /* Bank.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AA981072A28651F00F5F57D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AA980FD2A2864FD00F5F57D /* LaunchScreen.storyboard */,
+				7AA980F52A2864FB00F5F57D /* Main.storyboard */,
+				7AA981132A2866D800F5F57D /* BankTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AA981082A28652700F5F57D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7AA9810E2A2865FE00F5F57D /* BankViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7AA981092A28653700F5F57D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AA9810A2A28657B00F5F57D /* MainViewController.swift */,
+				7AA9810C2A2865BF00F5F57D /* BankTableViewCell.swift */,
+				7AA981162A2915C200F5F57D /* WebPageViewController.swift */,
+				7A5B06BA2A293CBE00C335A5 /* NetworkCheck.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AA980FF2A2864FD00F5F57D /* LaunchScreen.storyboard in Resources */,
+				7AA981152A2866D800F5F57D /* BankTableViewCell.xib in Resources */,
 				7AA980FC2A2864FD00F5F57D /* Assets.xcassets in Resources */,
 				7AA980F72A2864FB00F5F57D /* Main.storyboard in Resources */,
 			);
@@ -141,10 +192,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA981172A2915C200F5F57D /* WebPageViewController.swift in Sources */,
 				7AA980FA2A2864FB00F5F57D /* PruebaTecnica.xcdatamodeld in Sources */,
-				7AA980F42A2864FB00F5F57D /* ViewController.swift in Sources */,
+				7A5B06BB2A293CBE00C335A5 /* NetworkCheck.swift in Sources */,
 				7AA980F02A2864FB00F5F57D /* AppDelegate.swift in Sources */,
 				7AA980F22A2864FB00F5F57D /* SceneDelegate.swift in Sources */,
+				7AA9810D2A2865BF00F5F57D /* BankTableViewCell.swift in Sources */,
+				7AA9810F2A2865FE00F5F57D /* BankViewModel.swift in Sources */,
+				7AA9810B2A28657B00F5F57D /* MainViewController.swift in Sources */,
+				7AA981112A28662B00F5F57D /* Bank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +355,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +384,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

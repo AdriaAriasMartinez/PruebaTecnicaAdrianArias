@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="34t-I5-k0H">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="roY-94-mMV">
+            <objects>
+                <navigationController id="34t-I5-k0H" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jjg-js-Vph">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="r66-j1-F5h" kind="relationship" relationship="rootViewController" id="ASP-cy-cDq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yDk-2p-f7W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-960" y="18"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="niw-98-iVf">
+            <objects>
+                <viewController id="r66-j1-F5h" customClass="MainViewController" customModule="PruebaTecnica" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Zzm-la-wUH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ueo-vs-p8o">
+                                <rect key="frame" x="0.0" y="98" width="393" height="720"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="393" id="Imk-zU-Evp"/>
+                                    <constraint firstAttribute="height" constant="720" id="xBt-wy-u7t"/>
+                                </constraints>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4OK-co-QKw"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ueo-vs-p8o" firstAttribute="top" secondItem="4OK-co-QKw" secondAttribute="top" constant="39" id="cU6-VF-HYH"/>
+                            <constraint firstItem="ueo-vs-p8o" firstAttribute="trailing" secondItem="4OK-co-QKw" secondAttribute="trailing" id="dRn-Nw-YAp"/>
+                            <constraint firstItem="ueo-vs-p8o" firstAttribute="leading" secondItem="4OK-co-QKw" secondAttribute="leading" id="pIg-tT-nyw"/>
+                            <constraint firstItem="ueo-vs-p8o" firstAttribute="bottom" secondItem="4OK-co-QKw" secondAttribute="bottom" id="xww-PV-rwU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cgJ-pB-4oZ"/>
+                    <connections>
+                        <outlet property="banksTableView" destination="ueo-vs-p8o" id="vbP-2Z-N8l"/>
+                        <segue destination="94s-3T-vfu" kind="show" identifier="PageSegue" id="duU-nx-5jO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s0i-Bp-Uaz" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-132" y="18"/>
+        </scene>
+        <!--Web Page View Controller-->
+        <scene sceneID="F0f-Ff-ngE">
+            <objects>
+                <viewController id="94s-3T-vfu" customClass="WebPageViewController" customModule="PruebaTecnica" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qyI-hB-h0h">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tR4-Nv-Y04">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="58E-pt-1MX">
+                                <rect key="frame" x="146.66666666666666" y="376" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="0tl-cf-CNF"/>
+                                    <constraint firstAttribute="width" constant="100" id="PYV-dT-HSa"/>
+                                </constraints>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wEZ-4P-atl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="58E-pt-1MX" firstAttribute="centerX" secondItem="qyI-hB-h0h" secondAttribute="centerX" id="52k-nm-DYn"/>
+                            <constraint firstItem="tR4-Nv-Y04" firstAttribute="leading" secondItem="wEZ-4P-atl" secondAttribute="leading" id="N0w-0y-7at"/>
+                            <constraint firstItem="wEZ-4P-atl" firstAttribute="trailing" secondItem="tR4-Nv-Y04" secondAttribute="trailing" id="eKT-f2-bwF"/>
+                            <constraint firstItem="wEZ-4P-atl" firstAttribute="bottom" secondItem="tR4-Nv-Y04" secondAttribute="bottom" id="fBd-hv-x0o"/>
+                            <constraint firstItem="tR4-Nv-Y04" firstAttribute="top" secondItem="wEZ-4P-atl" secondAttribute="top" id="mYz-ik-Trq"/>
+                            <constraint firstItem="58E-pt-1MX" firstAttribute="centerY" secondItem="qyI-hB-h0h" secondAttribute="centerY" id="t4N-GN-Pu1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="pIL-Ze-lYL"/>
+                    <connections>
+                        <outlet property="Activity" destination="58E-pt-1MX" id="nbW-z7-S9f"/>
+                        <outlet property="pageView" destination="tR4-Nv-Y04" id="WOH-0f-mfZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F5i-cc-cTb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="730.53435114503816" y="17.605633802816904"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
